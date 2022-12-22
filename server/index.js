@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://stackbox.vercel.app",
     credentials: true,
   },
 });
@@ -49,3 +49,16 @@ io.on("connection", (socket) => {
     }
   });
 });
+
+
+
+//  utils API ROUTE > Bckend 
+///  
+//// 
+
+// const io = socket(server, {
+//   cors: {
+//     origin: "http://localhost:3000",
+//     credentials: true,
+//   },
+// });

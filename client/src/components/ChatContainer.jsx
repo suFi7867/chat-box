@@ -177,7 +177,7 @@ const Container = styled.div`
 
       .content {
         background-color: #8dd8fead;
-        border-radius: 0rem 2rem 2rem;
+        border-radius: 2rem 2rem 2rem 0rem;
       }
     }
   }
